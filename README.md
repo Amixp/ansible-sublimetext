@@ -1,4 +1,3 @@
-Installs google-chrome on centos
-================================
+# Installs sublime-text on centos
 
 LICENSE: MIT

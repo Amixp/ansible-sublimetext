@@ -1,0 +1,12 @@
+- name: Install repo yum
+  copy:
+    src: "{{ ansible_distribution | lower }}.repo"
+    dest: "/etc/yum.repos.d/{{ repo_filename }}"
+
+- name: Install package
+  yum:
+    name: "{{ item }}"
+    state: present
+  ignore_errors: "{{ ansible_check_mode }}"
+  whith_items: "{{ pkg_name }}"
+
