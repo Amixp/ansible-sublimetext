@@ -1,14 +1,13 @@
 dependencies: []
 galaxy_info:
-  author: Filip Sobalski
-  company: creativestyle
-  description: Install google-chrome
+  author: Artem.Khudoley
+  company: radv
+  description: Install sublime-text, sublime-merge
   license: MIT
   min_ansible_version: 1.9
   galaxy_tags:
-    - google
-    - chrome
-    - google-chrome
+    - sublime-text
+    - sublime-merge
   platforms:
     - name: EL
       versions:

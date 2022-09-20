@@ -1,4 +1,4 @@
-repo_filename: sublimetext.repo
+repo_filename: sublime-text.repo
 pkg_name:
   - sublime-text
   - sublime-merge
